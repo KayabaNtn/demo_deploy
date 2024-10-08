@@ -8,7 +8,7 @@ set :rvm_type, :ubuntu
 set :default_shell, "/bin/bash -l"
 set :pty, true
 set :keep_releases, 2
-set :linked_files, %w(config/database.yml config/application.yml)
+set :linked_files, %w(config/database.yml config/application.yml config/.env)
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets vendor/bundle public/upload}
 set :bundle_binstubs, nil
 
