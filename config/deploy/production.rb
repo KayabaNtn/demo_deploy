@@ -64,5 +64,5 @@ set :stage, :production
 set :rails_env, :production
 set :rack_env, :production
 set :branch, "master"
-set :deploy_to, "/var/www/demo_deploy"
+set :deploy_to, "/deploy/apps/demo_deploy"
 server "35.174.233.22", user: "ubuntu", roles: %w(web app db)
